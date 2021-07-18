@@ -1,0 +1,30 @@
+@font-face {
+    src: url('./iosevka-light.ttf');
+    font-family: ios;
+}
+body{
+    background: #212529;
+    color: #00b4d8;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Helvetica', sans-serif;
+    font-family: ios, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.profilepicture {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.navbar-brand{
+    color: #00b4d8;
+}
+
+.link:link, .link:active, .link:hover, .link:visited{
+    color: #00b4d8;
+    text-decoration: underline;
+}
+
